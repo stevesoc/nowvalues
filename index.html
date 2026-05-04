@@ -75,6 +75,9 @@
   .footer-logo { font-size: 1.2rem; font-weight: 900; }
   .footer-logo .t { color: var(--teal); }
   footer p { font-size: 0.8rem; color: var(--muted); }
+  .footer-links { display: flex; gap: 1.5rem; }
+  .footer-links a { font-size: 0.8rem; color: var(--muted); text-decoration: none; }
+  .footer-links a:hover { color: var(--teal); }
 </style>
 </head>
 <body>
@@ -165,8 +168,11 @@
       </svg>
       <div class="footer-logo">Now<span class="t">Values</span></div>
     </div>
-    <p>&copy; 2025 NowValues.com &middot; All rights reserved</p>
-    <p>This site may contain affiliate links.</p>
+    <div class="footer-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Use</a>
+    </div>
+    <p>&copy; 2025 Strategic Online Corp. &middot; This site may contain affiliate links.</p>
   </div>
 </footer>
 </body>
